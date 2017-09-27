@@ -4,6 +4,3 @@ spring:
         url: jdbc:postgresql://stanlin.wanari.com:5432/spring-multidb-view
         username: spring-multidb-view
         password: spring-multidb-view
-
-liquibase:
-    change-log: classpath:/liquibase/master.xml
