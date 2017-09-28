@@ -1,7 +1,7 @@
 package com.wanari.multidb.example.service;
 
-import com.wanari.multidb.example.domain.User;
-import com.wanari.multidb.example.repository.UserRepository;
+import com.wanari.multidb.example.domain.view.User;
+import com.wanari.multidb.example.repository.view.UserRepository;
 import io.vavr.control.Option;
 import org.springframework.stereotype.Service;
 

@@ -5,3 +5,8 @@ spring:
       url: jdbc:postgresql://stanlin.wanari.com:5432/spring-multidb-view
       username: spring-multidb-view
       password: spring-multidb-view
+    prod:
+      type: com.zaxxer.hikari.HikariDataSource
+      url: jdbc:postgresql://stanlin.wanari.com:5432/spring-multidb-prod
+      username: spring-multidb-prod
+      password: spring-multidb-prod
