@@ -18,6 +18,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
             .authorizeRequests()
             .antMatchers("/hello/**").authenticated()
+            .antMatchers("/detonation-code/**").authenticated()
             .and()
             .apply(simpleSecurityConfigurerAdapter);
     }

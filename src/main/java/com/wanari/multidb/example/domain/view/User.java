@@ -1,4 +1,4 @@
-package com.wanari.multidb.example.domain;
+package com.wanari.multidb.example.domain.view;
 
 import javax.persistence.*;
 

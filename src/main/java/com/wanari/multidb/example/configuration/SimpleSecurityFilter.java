@@ -1,6 +1,6 @@
 package com.wanari.multidb.example.configuration;
 
-import com.wanari.multidb.example.domain.User;
+import com.wanari.multidb.example.domain.view.User;
 import com.wanari.multidb.example.service.UserService;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
