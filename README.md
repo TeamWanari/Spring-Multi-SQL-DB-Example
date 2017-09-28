@@ -4,7 +4,7 @@ This is an example implementation for Spring MultiDB solution
 
 ## Installation
 
-There is a Maven wrapper pushed to the repository so you can run the project with that file (`mvnw` or `mvnw.cmd`). All you need is to set up two local (Postgre) databases desctibed in the `application.yml` file
+There is a Maven wrapper pushed to the repository so you can run the project with that file (`mvnw` or `mvnw.cmd`). All you need is to set up two local (Postgre) databases described in the `application.yml` file
 ```
 spring:
   datasource:
@@ -20,4 +20,4 @@ spring:
       password: spring-multidb-prod
 ```
 Liquibase will insert the initial data for you when the application starts.
-You can try it out for example with [Postman](https://www.getpostman.com/) for example, you can find the API [here](https://www.getpostman.com/collections/20a76f234b589856c005)
+You can try it out for example with [Postman](https://www.getpostman.com/) by calling the [API](https://www.getpostman.com/collections/20a76f234b589856c005)
